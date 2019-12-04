@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9acb34"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:text="@string/T1_Story"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        >
+
+    <Button
+        android:id="@+id/ans1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/T1_Ans1"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:background="#363e4b"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/ans2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/T1_Ans2"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:layout_below="@id/ans1"
+        android:background="#363e4b"/>
+
+    </RelativeLayout>
+</RelativeLayout>
